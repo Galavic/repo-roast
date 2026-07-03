@@ -10,10 +10,14 @@ Find out why people are not starring, installing, or contributing to your repo.
 
 Repo Roast is a tiny CLI that audits a local repository for **star readiness**: demo clarity, setup experience, trust signals, and contributor friendliness. It is not trying to be another generic security scanner. It looks at the first things humans judge before they decide whether your project is worth their time.
 
-![Repo Roast terminal demo](docs/demo.svg)
+![Repo Roast terminal demo](docs/demo.gif)
 
 ```bash
 npx repo-roast-cli .
+```
+
+```bash
+npx repo-roast-cli fix . --dry-run
 ```
 
 ```txt
@@ -65,6 +69,24 @@ repo-roast . --json
 repo-roast . --no-color
 ```
 
+## Fix Mode
+
+Repo Roast can also generate safe launch files for common issues:
+
+```bash
+repo-roast fix . --dry-run
+repo-roast fix .
+```
+
+Fix mode creates missing files without overwriting existing ones:
+
+- `.env.example` from detected environment variables
+- `CONTRIBUTING.md`
+- `SECURITY.md`
+- `.github/workflows/ci.yml`
+- Issue templates
+- `CODE_OF_CONDUCT.md`
+
 ## Development
 
 ```bash
@@ -76,7 +98,6 @@ npm run roast
 
 ## Roadmap
 
-- `repo-roast fix` to generate missing launch files
 - GitHub URL mode using the GitHub API
 - Markdown report export for pull requests
 - Custom rules through `repo-roast.config.json`
