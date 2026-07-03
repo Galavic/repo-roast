@@ -1,7 +1,6 @@
 # Repo Roast
 
 [![npm version](https://img.shields.io/npm/v/repo-roast-cli.svg)](https://www.npmjs.com/package/repo-roast-cli)
-[![npm downloads](https://img.shields.io/npm/dm/repo-roast-cli.svg)](https://www.npmjs.com/package/repo-roast-cli)
 [![CI](https://github.com/Galavic/repo-roast/actions/workflows/ci.yml/badge.svg)](https://github.com/Galavic/repo-roast/actions/workflows/ci.yml)
 [![license](https://img.shields.io/npm/l/repo-roast-cli.svg)](LICENSE)
 [![node](https://img.shields.io/node/v/repo-roast-cli.svg)](package.json)

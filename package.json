@@ -25,7 +25,7 @@
     "dev": "tsx src/cli.ts",
     "lint": "tsc --noEmit",
     "start": "node dist/cli.js",
-    "test": "npm run build && node --import tsx --test test/**/*.test.ts",
+    "test": "npm run build && node --import tsx --test test/index.test.ts",
     "prepack": "npm run build",
     "roast": "npm run build && node dist/cli.js ."
   },
