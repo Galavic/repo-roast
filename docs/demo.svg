@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="470" viewBox="0 0 920 470" role="img" aria-label="Repo Roast terminal demo">
+  <rect width="920" height="470" rx="14" fill="#121417"/>
+  <rect x="24" y="24" width="872" height="422" rx="10" fill="#181b20" stroke="#333842"/>
+  <circle cx="52" cy="48" r="7" fill="#ff5f56"/>
+  <circle cx="76" cy="48" r="7" fill="#ffbd2e"/>
+  <circle cx="100" cy="48" r="7" fill="#27c93f"/>
+  <text x="42" y="92" font-family="Consolas, Menlo, monospace" font-size="20" fill="#d7dde8">$ repo-roast .</text>
+  <text x="42" y="136" font-family="Consolas, Menlo, monospace" font-size="24" font-weight="700" fill="#ffffff">Repo Roast: my-project</text>
+  <text x="42" y="176" font-family="Consolas, Menlo, monospace" font-size="20" fill="#ffcc66">Star Readiness 54/129  Grade: F</text>
+  <text x="42" y="226" font-family="Consolas, Menlo, monospace" font-size="18" fill="#a8b3c7">Demo clarity              [####------------] 10/40</text>
+  <text x="42" y="260" font-family="Consolas, Menlo, monospace" font-size="18" fill="#a8b3c7">Setup experience          [########--------] 18/35</text>
+  <text x="42" y="294" font-family="Consolas, Menlo, monospace" font-size="18" fill="#a8b3c7">Trust signals             [######----------] 16/45</text>
+  <text x="42" y="344" font-family="Consolas, Menlo, monospace" font-size="18" fill="#ff6b6b">[FAIL] Missing license</text>
+  <text x="42" y="378" font-family="Consolas, Menlo, monospace" font-size="18" fill="#d7dde8">No license means users cannot safely use the project.</text>
+  <text x="42" y="412" font-family="Consolas, Menlo, monospace" font-size="18" fill="#66d9ef">Fix: Add an OSI-approved license such as MIT or Apache-2.0.</text>
+</svg>

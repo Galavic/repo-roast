@@ -1,0 +1,51 @@
+{
+  "name": "repo-roast-cli",
+  "version": "0.1.0",
+  "description": "Roast your repository and find out why people are not starring, installing, or contributing to it.",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Galavic/repo-roast.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Galavic/repo-roast/issues"
+  },
+  "homepage": "https://github.com/Galavic/repo-roast#readme",
+  "bin": {
+    "repo-roast": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "lint": "tsc --noEmit",
+    "start": "node dist/cli.js",
+    "test": "npm run build && node --import tsx --test test/**/*.test.ts",
+    "prepack": "npm run build",
+    "roast": "npm run build && node dist/cli.js ."
+  },
+  "keywords": [
+    "github",
+    "open-source",
+    "cli",
+    "repo-health",
+    "repository",
+    "audit",
+    "developer-tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0"
+  }
+}
