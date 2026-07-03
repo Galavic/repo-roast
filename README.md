@@ -1,5 +1,11 @@
 # Repo Roast
 
+[![npm version](https://img.shields.io/npm/v/repo-roast-cli.svg)](https://www.npmjs.com/package/repo-roast-cli)
+[![npm downloads](https://img.shields.io/npm/dm/repo-roast-cli.svg)](https://www.npmjs.com/package/repo-roast-cli)
+[![CI](https://github.com/Galavic/repo-roast/actions/workflows/ci.yml/badge.svg)](https://github.com/Galavic/repo-roast/actions/workflows/ci.yml)
+[![license](https://img.shields.io/npm/l/repo-roast-cli.svg)](LICENSE)
+[![node](https://img.shields.io/node/v/repo-roast-cli.svg)](package.json)
+
 Find out why people are not starring, installing, or contributing to your repo.
 
 Repo Roast is a tiny CLI that audits a local repository for **star readiness**: demo clarity, setup experience, trust signals, and contributor friendliness. It is not trying to be another generic security scanner. It looks at the first things humans judge before they decide whether your project is worth their time.
@@ -12,13 +18,13 @@ npx repo-roast-cli .
 
 ```txt
 Repo Roast: my-project
-Star Readiness 54/129  Grade: F
+Star Readiness 57/145  Grade: F
 
 Scoreboard
-  Demo clarity               [####------------] 10/40
-  Setup experience           [########--------] 18/35
-  Trust signals              [######----------] 16/45
-  Contributor friendliness   [#######---------] 11/25
+  Demo clarity                [###########-----] 27/40
+  Setup experience            [#########-------] 19/35
+  Trust signals               [----------------] 0/45
+  Contributor friendliness    [#######---------] 11/25
 
 Roasts
   [FAIL] Missing license (0/15)
@@ -28,7 +34,7 @@ Roasts
 
 ## Why
 
-Most repository scanners answer: “Is this project technically healthy?”
+Most repository scanners answer: "Is this project technically healthy?"
 
 Repo Roast asks a more painful question:
 
