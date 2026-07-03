@@ -1,6 +1,6 @@
 {
   "name": "repo-roast-cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Roast your repository and find out why people are not starring, installing, or contributing to it.",
   "type": "module",
   "repository": {
